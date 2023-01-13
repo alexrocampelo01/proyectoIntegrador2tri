@@ -1,0 +1,51 @@
+*{
+ margin: 0;
+}
+/* div{
+    border: 5px solid red;
+} */
+#buscadorGeneral{
+    background-color: blueviolet;
+}
+#fondoBusqueda{
+    width: 100%;
+}
+#seccionBusqueda{
+    display: flex;
+    width: 50%;
+    height: 10vw; 
+    position: absolute; 
+    bottom: 0.1vw; 
+    left: 24vw;
+}
+#seccionBusqueda input{
+    width: 80%;
+    border-radius: 2vw;
+}
+#botonBusqueda{
+    width: 20%;
+    background-color: greenyellow;
+    border-radius: 10vw;
+}
+#lupa{
+    width: 80%;
+    margin: 0.5vw;
+}
+#recomendad{
+    background-color: yellow;
+}
+.butFlecha {
+    width: 10%;
+}
+.butFlecha img{
+    width: 100%;
+}
+.ScrollVistaRutas{
+
+}
+.VistaMiniRuta{
+    background-color: peru;
+}
+.imagenMitad{
+    width: 50%;
+}
