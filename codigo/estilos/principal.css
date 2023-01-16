@@ -34,75 +34,126 @@
 }
 #recomendad{
     background-color: yellow;
+    clear: both;
 }
 .RecomendadosEscrol{
+    background-color: orange;
     display: flex;
     vertical-align: middle;
+
 }
 .butFlecha {
     width: 10%;
+    height: 10%;
+    background-color: green;
+    border-radius: 50%;
 }
 .butFlecha img{
-    width: 10vw;
-}
-
-.ScrollVistaRutas{
-
+    width: 50%;
+    padding: 1vw;
+    display: flex;
+    
+    
 }
 .VistaMiniRuta{
     background-color: peru;
+    float: left;
+    width: 10vw;
+    height: 10vw;
+    min-width: 500px;
+    margin: 1vw;
+    border-radius: 2vw;
+    padding: 0.5vw;
+}
+.VistaMiniRuta h3{
+    text-align: center;
+    background-color: green;
 }
 .imagenMitad{
     width: 50%;
 }
-
 .dosMitades{
     display: flex;
-    width: 30vw;
-    height: 10vw;
-    border: 5px solid blue;
+    width: auto;
+    
     padding: 0.5vw;
-}
-.mitadIzq{
-    width: 50%;
-    min-height: 10vw;
+    float: left;
 }
 .imagenMitad{
     width: 100%;
     height: auto;
 }
 .mitadDer{
-    min-height: 256px;
     width: 50%;
-    height: 8vw;
+}
+.mitadIzq{
+    width: 50%;
 }
 .minidatos{
     display: grid;
     background-color: cadetblue;
     grid-template-columns: (2,2fr);
-    grid-template-rows: (8, 8fr);
-    height: 10vw;
+    grid-template-rows: (5, 5fr);
+    height: 8vw;
     text-align: center;
+    font-size: 1vw;
 }
+/* COMIENZO grid de los datos*/
 .medida{
     grid-column: 1;
     grid-row: 1;
     background-color: aqua;
 }
 .medidaDatos{
-    grid-column: 2 ;
+    grid-column: 2;
     grid-row: 1;
     background-color: aqua;
 }
-.estrellas{
+.dificultad{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: aqua;
+}
+.dificultadDato{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: aqua;
+}
+.desnivel{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: aqua;
+}
+.desnivelDato{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: aqua;
+}
+.tipoRuta{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: aqua;
+}
+.tipoRutaDato{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: aqua;
+}
+.valoracion{
     grid-row: 8;
     grid-column: span 2;
+    background:aqua ;
+}
+.estrellas{
+   
     grid-template-columns: (5, 5fr);
     grid-template-rows: (1, 1fr);
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: rebeccapurple;
 }
 .estrellas img{
     width: 1.5vw;
 }
+/* FIN grid de los datos*/
