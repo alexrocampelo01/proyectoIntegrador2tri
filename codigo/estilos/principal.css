@@ -9,11 +9,12 @@
 }
 #fondoBusqueda{
     width: 100%;
+    height: 50%;
 }
 #seccionBusqueda{
     display: flex;
     width: 50%;
-    height: 10vw; 
+    height: 5vw; 
     position: absolute; 
     bottom: 0.1vw; 
     left: 24vw;
@@ -23,23 +24,28 @@
     border-radius: 2vw;
 }
 #botonBusqueda{
-    width: 20%;
+    width: 10%;
     background-color: greenyellow;
     border-radius: 10vw;
 }
 #lupa{
-    width: 80%;
-    margin: 0.5vw;
+    width: 70%;
+    padding: 0.5vw;
 }
 #recomendad{
     background-color: yellow;
+}
+.RecomendadosEscrol{
+    display: flex;
+    vertical-align: middle;
 }
 .butFlecha {
     width: 10%;
 }
 .butFlecha img{
-    width: 100%;
+    width: 10vw;
 }
+
 .ScrollVistaRutas{
 
 }
@@ -48,4 +54,55 @@
 }
 .imagenMitad{
     width: 50%;
+}
+
+.dosMitades{
+    display: flex;
+    width: 30vw;
+    height: 10vw;
+    border: 5px solid blue;
+    padding: 0.5vw;
+}
+.mitadIzq{
+    width: 50%;
+    min-height: 10vw;
+}
+.imagenMitad{
+    width: 100%;
+    height: auto;
+}
+.mitadDer{
+    min-height: 256px;
+    width: 50%;
+    height: 8vw;
+}
+.minidatos{
+    display: grid;
+    background-color: cadetblue;
+    grid-template-columns: (2,2fr);
+    grid-template-rows: (8, 8fr);
+    height: 10vw;
+    text-align: center;
+}
+.medida{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: aqua;
+}
+.medidaDatos{
+    grid-column: 2 ;
+    grid-row: 1;
+    background-color: aqua;
+}
+.estrellas{
+    grid-row: 8;
+    grid-column: span 2;
+    grid-template-columns: (5, 5fr);
+    grid-template-rows: (1, 1fr);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.estrellas img{
+    width: 1.5vw;
 }
