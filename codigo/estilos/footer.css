@@ -1,3 +1,15 @@
 *{
     margin: 0px;
 }
+#pie{
+    background-color: black;
+    display: grid;
+    grid-template-columns: (6,6fr);
+}
+.aplicacion{
+    grid-column: 1;
+}
+.aplicacion img{
+    grid-column: 1;
+    width: 200px;
+}
