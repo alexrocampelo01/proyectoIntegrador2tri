@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../estilos/cabecera.css">
     <link rel="stylesheet" href="../estilos/principal.css">
     <link rel="stylesheet" href="../estilos/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jost:wght@300&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -23,139 +26,139 @@
                         <a>Mis rutas</a>
                     </nav>
                 </div>
-                
                 <div id="Sesion">
                     <span>inicio de sesion</span>
                     <hr>
                     <span>Registro</span>
                 </div>
                 <div id="imgUsuarioHeader">
-                    <img id="imgUsario" src="../images/usuario.png" alt="imgUsuario">
+                    <i class="bi bi-person-fill"></i>
+                    <!-- <img src="../images/usuario.png" alt="imgUsuario"> -->
                 </div>
             </header>
         </div> <!-- fin del hader-->
         <div id="buscadorGeneral"> 
-            <img id="fondoBusqueda" src="../images/fotoLagunaInviernoCopy.jpg">
             <div id="seccionBusqueda">
                 <input type="text" id="localidad" placeholder="Ubicacion que busca">
-                <div id="botonBusqueda">
-                    <img id="lupa" src="../images/busqueda-de-lupa.png">
+                <div>
+                    <img src="../images/busqueda-de-lupa.png">
                 </div>
             </div>
+            
         </div>
-        <div id="recomendad">
+        <div id="recomendad"> <!--recomedados principio-->
             <h2>RECOMEDADOS</h2>
             <div class="RecomendadosEscrol">
-                <div class="butFlecha">
-                    <img src="../images/flecha-izquierda.png" alt="flecha izquierda">
-                </div>
-                <div class="ScrollVistaRutas">
-                    <div class="VistaMiniRuta">
-                        <h3>ruta de la cabra coja</h3>
-                        <div class="dosMitades">
-                            <div class="mitadIzq">
-                                <img class="imagenMitad" src="../images/fotoLagunaInvierno.jpg">
-                            </div>
-                            <div class="mitadDer">
-                                <div class="minidatos">
-                                    <div class="titulos">
-                                        <span class="medida">Distancia:</span><br>
-                                        <span class="dificultad">Dificultad:</span><br>
-                                        <span class="desnivel">Desnivel:</span><br>
-                                        <span class="tipoRuta">Tipo de ruta:</span><br>
-                                    </div>
-                                    <div class="datos">
-                                        <span class="medidaDatos">14KM</span><br>
-                                        <span class="dificultadDato">Media</span><br>
-                                        <span class="desnivelDato">600M</span><br>
-                                        <span class="tipoRutaDato">Senderismo</span><br>
-                                    </div>
-                                    <div class="valoracion">
-                                        <span>Valoracion</span>
-                                        <div class="estrellas">
-                                            <img class="estre1" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre2" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre3" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre4" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre5" src="../images/mediaEstrella.png" alt="estrella">
-                                        </div>
-                                    </div>
-                                </div> <!-- grid-->
-                            </div>
+                <!-- flecha izq-->
+                <i class="bi bi-arrow-left-circle"></i>
+                <div class="VistaMiniRuta">
+                    <h3>ruta de la cabra coja</h3>
+                    <div class="dosMitades">
+                        <div class="mitadIzq">
+                            <img  src="../images/fotoLagunaInvierno.jpg">
                         </div>
-                    </div> 
-                    <div class="VistaMiniRuta">
-                        <h3>ruta de la cabra coja</h3>
-                        <div class="dosMitades">
-                            <div class="mitadIzq">
-                                <img class="imagenMitad" src="../images/fotoLagunaInvierno.jpg">
-                            </div>
-                            <div class="mitadDer">
-                                <div class="minidatos">
-                                    <div class="titulos">
-                                        <span class="medida">Distancia:</span><br>
-                                        <span class="dificultad">Dificultad:</span><br>
-                                        <span class="desnivel">Desnivel:</span><br>
-                                        <span class="tipoRuta">Tipo de ruta:</span><br>
+                        <div class="mitadDer">
+                            <div class="minidatos">
+                                <div class="titulos">
+                                    <span>Distancia:</span><br>
+                                    <span>Dificultad:</span><br>
+                                    <span>Desnivel:</span><br>
+                                    <span>Tipo de ruta:</span><br>
+                                </div>
+                                <div class="datos">
+                                    <span>14KM</span><br>
+                                    <span>Media</span><br>
+                                    <span>600M</span><br>
+                                    <span>Senderismo</span><br>
+                                </div>
+                                <div class="valoracion">
+                                    <span>Valoracion</span>
+                                    <div class="estrellas">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
                                     </div>
-                                    <div class="datos">
-                                        <span class="medidaDatos">14KM</span><br>
-                                        <span class="dificultadDato">Media</span><br>
-                                        <span class="desnivelDato">600M</span><br>
-                                        <span class="tipoRutaDato">Senderismo</span><br>
-                                    </div>
-                                    <div class="valoracion">
-                                        <span>Valoracion</span>
-                                        <div class="estrellas">
-                                            <img class="estre1" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre2" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre3" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre4" src="../images/estrella.png" alt="estrella">
-                                            <img class="estre5" src="../images/mediaEstrella.png" alt="estrella">
-                                        </div>
-                                    </div>
-                                </div> <!-- grid-->
-                            </div>
+                                </div>
+                            </div> 
                         </div>
-                    </div> 
+                    </div>
+                    
+                </div> 
+                <div class="VistaMiniRuta">
+                    <h3>ruta de la cabra coja</h3>
+                    <div class="dosMitades">
+                        <div class="mitadIzq">
+                            <img  src="../images/fotoLagunaInvierno.jpg">
+                        </div>
+                        <div class="mitadDer">
+                            <div class="minidatos">
+                                <div class="titulos">
+                                    <span>Distancia:</span><br>
+                                    <span>Dificultad:</span><br>
+                                    <span>Desnivel:</span><br>
+                                    <span>Tipo de ruta:</span><br>
+                                </div>
+                                <div class="datos">
+                                    <span>14KM</span><br>
+                                    <span>Media</span><br>
+                                    <span>600M</span><br>
+                                    <span>Senderismo</span><br>
+                                </div>
+                                <div class="valoracion">
+                                    <span>Valoracion</span>
+                                    <div class="estrellas">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="butFlecha">
-                    <img src="../images/flecha-derecha.png" alt="flecha derecha">
-                </div>
+                 <!-- flecha der-->
+                <i class="bi bi-arrow-right-circle"></i>
             </div>
         </div>
         <div id="pie">
-            <footer>
-                <div class="aplicacion">
-                    <img src="../images/descargasMovil.png">
-                </div>
-                <div class="contactos">
-                    <h4>Contacto</h4>
-                    <span>Tlefono+34 789654323</span>
-                    <span>pureair@gmail.com</span>
-                    <span>fax: +34 789654323</span>
-                </div>
-                <div class="navegacion">
-                    <a>Busqueda de ruras</a>
-                    <a>Rutas</a>
-                    <a>Mis rutas</a>
-                </div>
-                <div class="empresa">
-                    <a>informacion</a>
-                    <a>conocenos</a>
-                    <a>historia</a>
-                </div>
-                <div class="servicios">
-                    <a>creacion de rutas</a>
-                    <a>aplicacion movil</a>
-                    <a>Miembros</a>
-                </div>
-                <div class="redesSociales">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </footer>
+        
+            <div class="aplicacion">
+                <img src="../images/descargasMovil.png">
+            </div>
+            <div class="contactos">
+                <h2>Contacto</h2>
+                <span>Telefono: +34 789654323</span>
+                <span>Correo: pureair@gmail.com</span>
+                <span>fax: +34 789654323</span>
+            </div>
+            <div class="navegacion">
+                <h2>navegacion</h2>
+                <a>Busqueda de ruras</a>
+                <a>Rutas</a>
+                <a>Mis rutas</a>
+            </div>
+            <div class="empresa">
+                <h2>empresa</h2>
+                <a>informacion</a>
+                <a>conocenos</a>
+                <a>historia</a>
+            </div>
+            <div class="servicios">
+                <h2>servicios</h2>
+                <a>creacion de rutas</a>
+                <a>aplicacion movil</a>
+                <a>Miembros</a>
+            </div>
+            <div class="redesSociales">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-envelope"></i>
+            </div>
         </div>
     </div>
 </body>

@@ -6,7 +6,7 @@ body{
 }
 /*hader principio*/
 header{
-    background-color: #0F1103 ;
+    background-color: black ;
     display: flex;
     align-items: center;
     padding: 0.5vw;
@@ -26,6 +26,7 @@ header{
     width: 40vw;
     height: auto;
     margin: 1vw;
+    font-family: 'Jost', sans-serif;
     
 }
 #navHeader nav{
@@ -60,6 +61,7 @@ nav a{
     border-radius: 1vw;
     width: 15vw;
     margin: 2vw;
+    font-family: 'Jost', sans-serif;
 
 }
 header span{
@@ -71,20 +73,29 @@ header span{
     font-size: 1.5vw;
     text-align: center;
     border-radius: 2vw;
+    cursor: pointer;
 }
 /* div{
     border: 5px solid red;
 } */
 #imgUsuarioHeader{
-    width: 13vw;
-    margin-right: 1vw;
-    margin-left:3vw ;
-}
-#imgUsuarioHeader img{
-    width: 80%;
-    padding: 1vw;
+    width:  10vw;
+    height: 10vw;
     background-color: #A7C957;
-    border-radius: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 3vw;
+}
+#imgUsuarioHeader i{
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+    /* background-color: #A7C957; */
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 7.5vw;
+    line-height: 10vw;
 }
 
 /*
