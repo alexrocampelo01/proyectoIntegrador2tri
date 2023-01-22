@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: (6,6fr);
     grid-template-rows: (1,1fr);
-    border: white 5px solid;
+    /* border: white 5px solid; */
     line-height: 30px;
     min-width: 400px;
     min-height: 200px;
