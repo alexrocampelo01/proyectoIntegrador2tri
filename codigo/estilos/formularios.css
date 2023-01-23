@@ -23,12 +23,33 @@ width: 45%;
 position: relative;
 float: left;
 height: 99vh;
+background-color: blue;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
 .mitadDer form{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
+   line-height: 20px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   vertical-align: center;
 }
+.mitadDer input{
+    line-height: 20px;
+    text-align: center;
+    width: 200px;
+    border-bottom: black 5px solid;
+    background-color: lightgrey;
+ }
 label{
- background-color: aqua;
+ /* background-color: aqua; */
+}
+#errores{
+    background-color: red;
+    color: white;
 }
