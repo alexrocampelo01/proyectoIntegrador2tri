@@ -7,7 +7,7 @@ fetch('../html/cabecera.html')
 fetch('../html/pie.html')
     .then((response) => response.text())
     .then((html) => {
-        console.log(html);
+        //console.log(html);
         let pie = document.querySelector('#pie');
         pie.innerHTML= html;
     });

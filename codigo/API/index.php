@@ -1,5 +1,48 @@
 <?php
-    if($_SERVER['REQUEST_METOD'] = 'POST'){
-        if(isset($_POST))
+ require_once('conet.php');
+ $con = new Conexion();
+// ejemplo de json
+// {
+    // 	"nombre": "alex",
+    // 	"apellidos": "pered",
+    // 	"nombreUsu": "alex2001",
+    // 	"correo": "alejandro",
+    // 	"pass": "alex",
+    // 	"altura": "190",
+    // 	"peso": "90"
+    // 	"fechNac": "2023-01-27",
+    // 	"listaActividades": "senderismo,pozas",
+// }
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+   $json = file_get_contents('php://input');
+   if(isset($json)){
+    $user = json_decode($json);
+   //creamos las variables de los datos de los usarios
+    $nombre = $user->nombre;
+    $apellidos = $user->apellidos;
+    $nombreUsu = $user->nombre;
+    $correo = $user->correo;
+    $pass = $user->pass;
+    $altura = $user->altura;
+    $peso = $user->peso;
+    $fechNac = $user->fechNac;
+    $listaActividades = $user->listaActividades;
+    try{
+        $sql = "INSERT INTO `usuario` (`id`, `nombre`, `apellido`, `nomUsu`,`password`,
+         `correo`, `altura`, `peso`, `fechNac`, `listaActividades`)
+        VALUES (NULL, '$nombre', '$apellidos', '$nombreUsu', '$pass',
+        '$correo', '$altura', '$peso', '$fechNac', '$listaActividades')";
+        $con->query($sql);
+        header("HTTP/1.1 201 Created");
+        echo json_encode($con->insert_id);
+    }catch(mysqli_sql_exception){
+        header("HTTP/1.1 400 Bad Request");
     }
+  }else {
+    header("HTTP/1.1 400 Bad Request");
+ }
+}else{
+    echo "esto no es post";
+}
+    
 ?>
