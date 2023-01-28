@@ -14,11 +14,20 @@
     font-family: 'Jost', sans-serif;
     font-size: 20px;
     flex-wrap: wrap;
+    clear: both;
 }
 #pie h2{
     margin-bottom: 1vw;
 }
-
+#pie a, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#pie a:hover{
+    color: #A7C957;
+    text-decoration: none;
+}
 .aplicacion{
     grid-column: 1;
     grid-row: 1;

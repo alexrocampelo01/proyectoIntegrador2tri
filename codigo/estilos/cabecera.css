@@ -38,10 +38,15 @@ header{
     text-align: center;
     
 }
-a:hover{
+nav a:visited{
+    color: white;
+    cursor: pointer;
+}
+nav a:hover{
     color: #A7C957;
     cursor: pointer;
 }
+
 nav a{
     text-align: center;
     /* background-color: blue; */
@@ -62,7 +67,6 @@ nav a{
     width: 15vw;
     margin: 2vw;
     font-family: 'Jost', sans-serif;
-
 }
 header span{
     background-color: #A7C957;
@@ -75,6 +79,16 @@ header span{
     border-radius: 2vw;
     cursor: pointer;
 }
+span a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+span:hover a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 /* div{
     border: 5px solid red;
 } */
@@ -86,8 +100,11 @@ header span{
     vertical-align: middle;
     border-radius: 50%;
     margin-left: 3vw;
+    cursor: pointer;
+    color: white
 }
-#imgUsuarioHeader i{
+#imgUsuarioHeader a{
+    color: rgba(0, 0, 0, 0.85);
     width: 10vw;
     height: 10vw;
     padding: 1vw;
@@ -96,7 +113,14 @@ header span{
     cursor: pointer;
     font-size: 7.5vw;
     line-height: 10vw;
+    padding: 1.3vw;
+    
 }
+#logUsu{
+    margin-top: 1vw;
+    font-family: 'Jost', sans-serif;
+}
+
 
 /*
 

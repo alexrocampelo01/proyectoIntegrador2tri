@@ -1,15 +1,17 @@
 *{
 margin: 0px;
 }
+body{
+    background-color: white;
+}
 #registro{
-    background-color: peru;
-    height: auto;
+    
 }
 .mitadIzq{
     border: solid red 5px;
     width: 50%;
     background-image: url('../images/logoPureAir.png');
-    height: 90vh;
+    height: 93vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -19,24 +21,27 @@ margin: 0px;
 
 }
 .mitadDer{
-width: 50%;
-position: relative;
-float: left;
-height: 90vh;
-background-color:#A7C957;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+    width: 50%;
+    position: relative;
+    float: left;
+    height: auto;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 .mitadDer form{
-    background-color: aquamarine;
-   box-sizing: border-box;  
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows:repeat(6, 1fr);
-   width: 45vw;   
+    
+    /* background-color: aquamarine; */
+    box-sizing: border-box;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(6, 1fr);
+    width: 45vw;  
+    height: auto;
+    margin-top: 3vw;
 }
 form div{
     text-align: center;
@@ -44,88 +49,99 @@ form div{
 .nom{
     grid-column: 1 ;
     grid-row: 1;
-    border: red 3px solid;
+     
     box-sizing: border-box;
 }
 .apel{
     grid-column: 2;
     grid-row: 1;
-    border: red 3px solid;
     box-sizing: border-box;
 }
 .nomUsu{
     grid-column:1;
     grid-row: 2;
-    border: red 3px solid;
     box-sizing: border-box;
 }
 .correo{
     grid-column:2;
     grid-row: 2;
-    border: red 3px solid;
     box-sizing: border-box;
 } 
 .pass{
     grid-column:1;
     grid-row: 3;
-    border: red 3px solid;
     box-sizing: border-box;
 }
 .passRepe{
     grid-column:2;
     grid-row: 3;
-    border: red 3px solid;
     box-sizing: border-box;
 }
 .altura{
     grid-column:1;
     grid-row: 4;
-    border: red 3px solid;
     box-sizing: border-box;
 }
 .peso{
     grid-column:2;
     grid-row: 4;
-    border: red 3px solid;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .fechNac{
     grid-column:1;
-    grid-row: 5;
-    border: red 3px solid;
+    grid-row: 5;     
     box-sizing: border-box;
 } 
 .tlf{
     grid-column:2;
-    grid-row: 5;
-    border: red 3px solid;
+    grid-row: 5;     
     box-sizing: border-box;
 } 
 .actividades{
     grid-column:span 3 ;
-    grid-row: 6;
-    border: red 3px solid;
+    grid-row: 6;     
     box-sizing: border-box;
 }
 .mitadDer input{
     line-height: 20px;
-    text-align: center;
-    width: 10vw;
-    height: 4vh;
+    width: 20vw;
+    height: 6vh;
     border: white 2px solid;
-    /* background-color: ; */
+    background-color: #CDE47E ;
     margin: 10px;
+    color: black;
+    margin-left: 0.5px;
+    font-size: 15px;
+    border-radius: 2vw;
+    font-family: 'Jost', sans-serif;
+    font-size: 1vw;
+    text-align: center;
 }
-label{
- /* background-color: aqua; */
- color: black;
+label {
+    color: black;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
 }
 #errores{
     background-color: red;
     color: white;
 }
-.mitadDer span{
-    width: 20vw;
-    background-color: orange;
-    border-radius: 25%, 25%, 25%, 25%;
+.actividades span{
+    background-color: #CDE47E;
+    width: 10vw;
+    padding: 0.5vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.actividad{
+    margin-top: 1vw;
+}
+#butregistro{
+    background-color: #CDE47E;
+    padding: 0.5vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    margin-top: 1vw;
 }

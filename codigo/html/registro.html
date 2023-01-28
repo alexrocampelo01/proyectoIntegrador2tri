@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../estilos/cabecera.css">
-        <link rel="stylesheet" href="../estilos/formularios.css">
+        <link rel="stylesheet" href="../estilos/registro.css">
         <link rel="stylesheet" href="../estilos/footer.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Jost:wght@300&display=swap" rel="stylesheet">
@@ -20,39 +20,68 @@
         <div class="mitadIzq"></div>
         <div class="mitadDer">
             <form>
-                <label>nombre</label>
-                <input type="text" id="nom">
-                <label>apellidos</label>
-                <input type="text" id="apel">
-                <label>Nombre Usurio</label>
-                <input type="text" id="nomUsu">
-                <label>Correo electrónico</label>
-                <input type="text" id="correo">
-                <label>Contraseña</label>
-                <input type="password" id="pass">
-                <label>Repetir contraseña</label>
-                <input type="password" id="passRepe">
-                <label>Estatura</label>
-                <input type="text" id="altura">
-                <label>Peso</label>
-                <input type="text" id="peso">
-                <label>Fecha de nacimiento</label>
-                <input type="date" id="fechNac">
-                <label>Actividades favoritas</label>
-                <span id="registro">registrarse</span>
-                <div id="actiFavo">
-                    <p>botones de las actividades</p>
+                <div class="nom">
+                    <label for="nom">nombre</label><br>
+                    <input type="text" id="nom" name="nom">
+                </div>
+                <div class="apel">
+                    <label>apellidos</label><br>
+                    <input type="text" id="apel" name="nom">
+                </div>
+                <div class="nomUsu">
+                    <label>Nombre Usurio</label><br>
+                    <input type="text" id="nomUsu">
+                </div>
+                <div class="correo">
+                    <label>Correo electrónico</label><br>
+                    <input type="text" id="correo">
+                </div>
+                <div class="pass">
+                    <label>Contraseña</label><br>
+                    <input type="password" id="pass">
+                </div>
+                <div class="passRepe">
+                    <label>Repetir contraseña</label><br>
+                    <input type="password" id="passRepe">
+                </div>
+                <div class="altura">
+                    <label>Estatura</label><br>
+                    <input type="text" id="altura">
+                </div>
+                <div class="peso">
+                    <label>Peso</label><br>
+                    <input type="text" id="peso">
+                </div>
+                <div class="fechNac">
+                    <label>Fecha de nacimiento</label><br>
+                    <input type="date" id="fechNac">
+                </div>
+                <div class="tlf">
+                    <label>Telefono</label><br>
+                    <input type="text" id="tlf">
+                </div>
+                <div class="actividades">
+                    <label>Actividades favoritas</label>
+                    <div class="actividad">
+                        <span>senderismo</span>
+                        <span>Alpinismo</span>
+                        <span>ruta forestal</span>
+                        <span>Pozas</span>
+                    </div>
                 </div>
             </form>
+            <span id="butregistro">registrarse</span>
+        </div>
             <div id="errores">
                 
-            </div>
-        </div>
+            </div> 
+        </div> 
     </div>
     
     <div id="pie">
     </div>
     <script src="../js/cargadorComponetes.js"></script>
     <script src="../js/recolectorDeDatos.js"></script>
+    <script src="../js/funtionRegistro.js"></script>
 </body>
 </html>
