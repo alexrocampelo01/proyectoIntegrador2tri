@@ -63,10 +63,14 @@ form div {
     color: black;
     margin-left: 10px;
     font-size: 15px;
+<<<<<<< HEAD
     border-radius: 2vw;
     font-family: 'Jost', sans-serif;
     text-align: center;
     
+=======
+    font-family: 'Jost', sans-serif;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
 }
 
 label {
@@ -76,11 +80,18 @@ label {
 }
 
 #errores {
+<<<<<<< HEAD
     background-color: rgba(255, 0, 0, 0.502);
     width: auto;
     color: white;
 }
 #inicioBut{
+=======
+    background-color: red;
+    color: white;
+}
+#butregistro{
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     background-color: #CDE47E;
     width: 10vw;
     border-radius: 2vw;

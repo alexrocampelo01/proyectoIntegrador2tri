@@ -1,9 +1,12 @@
 *{
 margin: 0px;
 }
+<<<<<<< HEAD
 body{
     background-color: white;
 }
+=======
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
 #registro{
     
 }
@@ -25,7 +28,11 @@ body{
     position: relative;
     float: left;
     height: auto;
+<<<<<<< HEAD
     background-color:white;
+=======
+    background-color:#A7C957;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,15 +40,24 @@ body{
 
 }
 .mitadDer form{
+<<<<<<< HEAD
     
     /* background-color: aquamarine; */
+=======
+    background-color: aquamarine;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:repeat(6, 1fr);
     width: 45vw;  
     height: auto;
+<<<<<<< HEAD
     margin-top: 3vw;
+=======
+
+
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
 }
 form div{
     text-align: center;
@@ -49,62 +65,111 @@ form div{
 .nom{
     grid-column: 1 ;
     grid-row: 1;
+<<<<<<< HEAD
      
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .apel{
     grid-column: 2;
     grid-row: 1;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .nomUsu{
     grid-column:1;
     grid-row: 2;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .correo{
     grid-column:2;
     grid-row: 2;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 } 
 .pass{
     grid-column:1;
     grid-row: 3;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .passRepe{
     grid-column:2;
     grid-row: 3;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .altura{
     grid-column:1;
     grid-row: 4;
+<<<<<<< HEAD
+=======
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .peso{
     grid-column:2;
     grid-row: 4;
+<<<<<<< HEAD
     box-sizing: border-box;
     text-decoration: none;
 }
 .fechNac{
     grid-column:1;
     grid-row: 5;     
+=======
+    border: red 3px solid;
+    box-sizing: border-box;
+}
+.fechNac{
+    grid-column:1;
+    grid-row: 5;
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 } 
 .tlf{
     grid-column:2;
+<<<<<<< HEAD
     grid-row: 5;     
+=======
+    grid-row: 5;
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 } 
 .actividades{
     grid-column:span 3 ;
+<<<<<<< HEAD
     grid-row: 6;     
+=======
+    grid-row: 6;
+    border: red 3px solid;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
     box-sizing: border-box;
 }
 .mitadDer input{
     line-height: 20px;
+<<<<<<< HEAD
     width: 20vw;
     height: 6vh;
     border: white 2px solid;
@@ -122,11 +187,23 @@ label {
     color: black;
     font-size: 20px;
     font-family: 'Jost', sans-serif;
+=======
+    text-align: center;
+    width: 10vw;
+    height: 4vh;
+    border: white 2px solid;
+    margin: 10px;
+}
+label{
+ /* background-color: aqua; */
+ color: black;
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
 }
 #errores{
     background-color: red;
     color: white;
 }
+<<<<<<< HEAD
 .actividades span{
     background-color: #CDE47E;
     width: 10vw;
@@ -144,4 +221,21 @@ label {
     font-size: 1.5vw;
     cursor: pointer;
     margin-top: 1vw;
+=======
+.mitadDer span{
+    width: 20vw;
+    background-color: orange;
+    border-radius: 25%, 25%, 25%, 25%;
+}
+#butregistro{
+    background-color: #CDE47E;
+    width: 10vw;
+    border-radius: 2vw;
+    height:3vh;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    
+>>>>>>> 1b61558b602a67955baaad462e1184abcf01582d
 }
